@@ -6,14 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
+
     <width>477</width>
     <height>321</height>
+
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
+
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
@@ -66,6 +69,7 @@
         </widget>
        </item>
       </layout>
+
      </item>
     </layout>
    </widget>
@@ -75,7 +79,9 @@
     <rect>
      <x>0</x>
      <y>0</y>
+
      <width>477</width>
+
      <height>22</height>
     </rect>
    </property>

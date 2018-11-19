@@ -8,6 +8,7 @@
 #include <QKeyEvent>
 
 
+
 namespace Ui {
 class MainWindow;
 }
@@ -27,7 +28,9 @@ private:
     Ui::MainWindow *ui;
 
 protected:
+
     void keyPressEvent(QKeyEvent *);
+
     void paintEvent(QPaintEvent *);
     //void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 

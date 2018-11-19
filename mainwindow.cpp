@@ -3,6 +3,7 @@
 #include <QStyleOptionGraphicsItem>
 #include <QDebug>
 
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -50,6 +51,7 @@ MainWindow::~MainWindow()
 //    }
 //}
 
+
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
     if(event->key() == Qt::Key_S)
@@ -76,6 +78,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
            update();
        }
 }
+
 
 
 void MainWindow::paintEvent(QPaintEvent *)
